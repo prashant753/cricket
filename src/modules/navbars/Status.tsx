@@ -5,7 +5,7 @@ interface IProps {
     activeButton: number;
 }
 
-export default function TopNav(props: IProps) {
+export default function Status(props: IProps) {
     return (
         <div className="tc pb3 padding-top main-div-1">
             <a className={props.activeButton === 0 ? "f6 f5-ns dib ba pv2 ph1 no-border active-color" : "gray f6 f5-ns dib ba pv2 ph1 no-border"} href="#" onClick={() => props.buttonChange(0)}>RUNNING</a>
