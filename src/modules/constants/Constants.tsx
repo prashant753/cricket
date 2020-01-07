@@ -1,26 +1,29 @@
-export const cricketData = [
+export const status = [
     {
-        seriesName: 'Prentagular Series in Oman 2019',
-        matchNumber: 'Match 13',
-        city: 'Al Amarat',
-        team1: 'Oman',
-        team2: 'Nepal',
-        timeToToss: '15 min',
+        index: 0,
+        name: 'running',
     },
     {
-        seriesName: 'Indian Primier league 2020',
-        matchNumber: 'Qualifier 1',
-        city: 'Mumbai',
-        team1: 'Bangalore',
-        team2: 'Chennai',
-        timeToToss: '10 min',
+        index: 1,
+        name: 'upcoming',
     },
     {
-        seriesName: 'Caribbean Primier league',
-        matchNumber: 'Match 14',
-        city: 'Bangalore',
-        team1: 'Rajasthan royal',
-        team2: 'Mexican dusters',
-        timeToToss: '5 min',
+        index: 2,
+        name: 'completed',
+    }
+];
+
+export const type = [
+    {
+        index: 0,
+        name: 'all',
     },
+    {
+        index: 1,
+        name: 'international',
+    },
+    {
+        index: 2,
+        name: 'domestic',
+    }
 ];

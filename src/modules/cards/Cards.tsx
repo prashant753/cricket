@@ -14,21 +14,21 @@ export default function Cards(props: IProps) {
             </span>
             <hr></hr>
             <div className="match-details">
-                <p className="f6 lh-copy measure">{props.data.matchNumber} <span className="dot"></span> {props.data.city}</p>
+                <p className="f6 lh-copy measure">{props.data.matchNumber} <span className="dot"></span> {props.data.venue}</p>
                 <div>
                     <div className="inline-country-details">
                         <img src="https://image.flaticon.com/icons/svg/206/206626.svg" className="br-40 dib image-size" alt="Pic not found"></img>
-                        <span className="f6 lh-copy measure">{props.data.team1}</span>
+                        <span className="f6 lh-copy measure">{props.data.homeTeamName}</span>
                     </div>
                 </div>
                 <div>
                     <div>
                         <img src="https://image.flaticon.com/icons/svg/206/206758.svg" className="br-40 dib image-size" alt="Pic not found"></img>
-                        <span className="f6 lh-copy measure">{props.data.team2}</span>
+                        <span className="f6 lh-copy measure">{props.data.awayTeamName}</span>
                     </div>
                 </div>
                 <div className="time">
-                    <p className="text-time">{props.data.timeToToss}to toss</p>
+                    <p className="text-time">{props.data.toss}</p>
                 </div>
             </div>
         </div>

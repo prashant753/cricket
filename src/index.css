@@ -52,6 +52,7 @@ code {
 .text-time {
   text-align: center;
   padding-top: 4px;
+  padding-bottom: 4px;
 }
 .active-color {
   color: darkred;
