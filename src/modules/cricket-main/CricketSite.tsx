@@ -49,11 +49,6 @@ export class CricketSite extends React.Component<any, IState> {
         this.setState({ data: responseAsJson.data.schedule })
       })
   }
-  /*
-    # We will also have **ComponentDidUpdate** life cycle method, once the user clicks on any of the
-    filter, we will make API call with updated filters and will check on this method that if any of the props
-    value changes, we will update the state will current props.
-  */
 
   public state = {
     status: 0,
