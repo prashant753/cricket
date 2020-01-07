@@ -1,0 +1,46 @@
+.main {
+  margin: 20px;
+}
+.main-div-1 {
+  background-color: white;
+}
+.padding-top {
+  padding-top: 20px;
+}
+.nav-bar {
+  width: 33%;
+  text-align: center;
+  outline: none !important;
+}
+.navigation-link a:active {
+  text-decoration: underline;
+}
+.no-border {
+  outline: none !important;
+}
+.cards {
+margin-left: 5%;
+margin-right: 5%;
+padding-bottom: 10px;
+}
+.arrow-icon {
+  float: right;
+}
+.image-size {
+  width: 40px;
+  height: 20px;
+}
+.country-name {
+  padding-left: 20px;
+}
+.time {
+    width: 75%;
+    margin: auto;
+    height: 25px;
+    background-color: lightpink;
+    border-radius: 10px;
+}
+.text-time {
+  text-align: center;
+  padding-top: 4px;
+}
