@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import CricketSite from './CricketSite';
+import CricketSite from './modules/cricket-main/CricketSite';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<CricketSite />, document.getElementById('root'));
